@@ -22,5 +22,6 @@
   "homepage": "https://github.com/joaojacome/simple-injection#readme",
   "dependencies": {
     "reflect-metadata": "^0.1.13"
-  }
+  },
+  "types": "src/index.d.ts"
 }
