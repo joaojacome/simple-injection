@@ -1,14 +1,7 @@
 # Simple Injection
-
-## tsconfig.json
-` 
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-`
-
 ## Usage
 ### To register a service
-`
+``` javascript
 import { Injectable, Inject } from 'simple-injection';
 
 @Injectable
@@ -21,10 +14,10 @@ class Test {
         return this.n;
     }
 }
-`
+```
 
 ### To inject a service
-`
+``` javascript
 import { Inject } from 'simple-injection';
 
 class Test2 {
@@ -35,4 +28,4 @@ class Test2 {
         console.log(sum);
     }
 }
-`
+```

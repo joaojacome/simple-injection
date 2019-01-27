@@ -1,6 +1,6 @@
 {
   "name": "simple-injection",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "small ioc container and service locator",
   "main": "dist/Injection.js",
   "scripts": {
