@@ -1,0 +1,26 @@
+{
+  "name": "simple-injection",
+  "version": "0.0.1",
+  "description": "small ioc container and service locator",
+  "main": "dist/Injection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaojacome/simple-injection.git"
+  },
+  "keywords": [
+    "injection",
+    "typescript"
+  ],
+  "author": "Joao Jacome",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaojacome/simple-injection/issues"
+  },
+  "homepage": "https://github.com/joaojacome/simple-injection#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
